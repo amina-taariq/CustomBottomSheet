@@ -1,36 +1,83 @@
-# macOS system files
-.DS_Store
+## .NET
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Node modules (if using Node.js)
-node_modules/
-
-# Flutter/Dart build files (if this is a Flutter project)
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
 build/
-.dart_tool/
-.packages
+bld/
+[Bb]uild[Ll]og.*
 
-# Xcode/Android Studio (if using for mobile dev)
-ios/Pods/
-android/.gradle/
-android/app/build/
-
-# VS Code settings
+## VS Code
 .vscode/
 
-# Environment files
-.env
-.env.*
+## Visual Studio for Mac
+.idea/
+.vscode/
+*.userprefs
 
-# Log files
+## macOS
+.DS_Store
+
+## Android
+*.apk
+*.ap_
+*.aab
+.gradle/
+local.properties
+.externalNativeBuild/
+.cxx/
+*.iml
+*.dex
+
+## iOS/macCatalyst
+build-ios/
+build-maccatalyst/
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata/
+*.xcodeproj/
+*.xcconfig
+*.entitlements
+*.plist
+*.pbxproj
+*.xcassets
+Pods/
+DerivedData/
+*.mobileprovision
+
+## Windows
+*.appx
+*.appxbundle
+*.appxupload
+*.msix
+*.msixbundle
+*.msixupload
+
+## MAUI Specific
+Platforms/**/bin/
+Platforms/**/obj/
+Resources/Raw/*.zip
+
+## JetBrains IDEs
+.idea/
+*.sln.iml
+
+## Rider
+.idea/
+
+## Logs
 *.log
 
-# Coverage reports
-coverage/
-
-# Generated files
-*.lock
-
-# Temporary files
+## Temporary files
 *.tmp
-*.swp
-*.swo
+*.temp
+*.bak
