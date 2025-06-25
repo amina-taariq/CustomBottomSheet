@@ -1,0 +1,31 @@
+<local:CustomBottomsheet xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                         xmlns:local="clr-namespace:CustomBottomSheet.Custom"
+                         x:Class="CustomBottomSheet.Bottomsheet"
+                         BackgroundColor="White"
+                         CornerRadius="30">
+
+    <Grid RowDefinitions="Auto, Auto, Auto, Auto"
+          Padding="15,12,15,15">
+
+        <Border Grid.Row="0"
+                StrokeShape="RoundRectangle 20"
+                StrokeThickness="0"
+                HeightRequest="8"
+                WidthRequest="38"
+                Background="Gray"
+                Margin="0,0,0,9"/>
+        <Label Grid.Row="1"
+               Text="Hey I'm The49.Maui.BottomSheet"
+               FontSize="20"
+               HorizontalTextAlignment="Center"/>
+        <Image Grid.Row="2"
+               Source="dotnet_bot.png"
+               HeightRequest="157"/>
+        <Button Grid.Row="3"
+                HorizontalOptions="Fill"
+                FontSize="18"
+                Text="OK"
+                Command="{Binding OkCommand}"/>
+    </Grid>
+</local:CustomBottomsheet>               

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomBottomSheet.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Text="Hello, World!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="We'll talk about The49.Maui.BottomSheet and how to simplify bottom sheet behavior on Android to match iOS."
+                Style="{StaticResource SubHeadline}"/>
+
+
+            <Button
+                Text="Click To Open BottomSheet" 
+                Command="{Binding OpenBottomSheetCommand}"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

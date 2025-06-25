@@ -1,0 +1,36 @@
+# macOS system files
+.DS_Store
+
+# Node modules (if using Node.js)
+node_modules/
+
+# Flutter/Dart build files (if this is a Flutter project)
+build/
+.dart_tool/
+.packages
+
+# Xcode/Android Studio (if using for mobile dev)
+ios/Pods/
+android/.gradle/
+android/app/build/
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+.env.*
+
+# Log files
+*.log
+
+# Coverage reports
+coverage/
+
+# Generated files
+*.lock
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
